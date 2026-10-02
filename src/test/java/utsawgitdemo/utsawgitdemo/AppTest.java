@@ -1,19 +1,12 @@
 package utsawgitdemo.utsawgitdemo;
 
-import static org.junit.jupiter.api.Assertions.assertTrue;
-
-import org.junit.jupiter.api.Test;
-
 /**
  * Unit test for simple App.
  */
 public class AppTest {
 
-    /**
-     * Rigorous Test :-)
-     */
-    @Test
-    public void shouldAnswerWithTrue() {
-        assertTrue(true);
-    }
+	public void checkGit() {
+		System.out.println("This is from GitDemo");
+		System.out.println("This is from GitDemo Again");
+	}
 }
